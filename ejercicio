@@ -1,0 +1,12 @@
+def sumar(num1, num2, num3):
+    return num1 + num2 + num3
+
+resultado = sumar(1,2,3)
+print(resultado)
+
+class Coche:
+    def_init_(self, num_puertas):
+        self.num_puertas = num_puertas
+
+    def incrementar_puertas(self):
+        self.num_puertas += 1
